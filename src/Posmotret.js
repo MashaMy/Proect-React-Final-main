@@ -32,7 +32,7 @@ function Posmotret() {
             <p className="centerNow">Интуитивно выбери критерий и нажми один раз. Выбери фильм и посмотри вместе с другом.</p>
             <p className="centerNow"> Если нет компании, переходи в следущий раздел "С кем сходить?" </p>
         
-        <div className="products centerNow" >
+        <div >
         <Filter 
         buttons={buttons}
         data ={dataFilms}
