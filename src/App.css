@@ -1,0 +1,178 @@
+.zagolovok {
+  display: flex;
+  justify-content: center;
+  background:  #ecc6e1;
+  padding: 15px 40px;
+  font-family: "Roboto Slab", serif;
+  margin-top: 0px;
+  margin-bottom: 0;
+}
+
+.link {
+  padding: 10px 40px;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: "Roboto Slab", serif;
+}
+
+
+p {
+  font-family: "Roboto Slab", serif;
+  font-size: 23px;
+  padding: 10px;
+  margin: auto;
+}
+
+.centerNow {
+  display: flex;
+  justify-content: center;
+}
+
+
+.fon {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding: 20px;
+ margin: 20px;
+ }
+
+ .svecha {
+  color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #f09,
+      0 0 82px #f09,
+      0 0 92px #f09,
+      0 0 102px #f09,
+      0 0 170px #f09;
+      text-decoration: underline;
+
+ }
+
+.shrift {
+  font-family: "Roboto Slab", serif;
+  font-weight: bolder;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    }
+  
+  .product-card {
+      padding: 2%;
+      flex-grow: 1;
+      flex-basis: 16%;
+      text-align: center;
+      font-size: 14px;
+    }
+  
+      
+  .cont {
+      display: flex;
+      justify-content: center;
+      margin-top: 5px;
+    }
+  
+  .back {
+      background-color: #f4eddd; 
+      padding: 20px;
+      margin-left: 20px;
+      margin-right: 20px;
+      font-family: "Roboto Slab", serif;
+    }
+  
+  .change {
+      background-color: black;
+      color: white;
+      padding: 10px;
+      border: none;
+      font-family: "Roboto Slab", serif;
+    }
+  
+  h1, h3, h4 {
+    font-family: "Roboto Slab", serif;
+    }
+  
+  button {
+      margin: 10px;
+    }
+  
+    nav {
+      background: #709df1;
+      display: flex;
+      justify-content: center;
+      padding: 15px;
+      font-family: "Roboto Slab", serif;
+    }
+
+    .btnzanyatie {
+      cursor: pointer;
+      padding: 25px;
+      font-size: 15px;
+      text-transform: uppercase;
+      margin-top: 10px;
+      border-radius: 12px;
+      border: none;
+      background-color:  #ecc6e1;
+      font-family: 'Hedvig Letters Serif', serif;
+      font-weight: bolder;
+      }
+
+      .btnzanyatie:hover {
+          background-color:#fa0895;
+          transition: 0.7s;
+      }
+
+      video {
+        object-fit: cover;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -1;
+      }
+
+      
+      .containerper {
+        display: flex;
+        justify-content: center;
+        font-family: "Roboto Slab", serif;
+        }
+      
+      .person {
+        margin: 10px;
+        font-family: "Roboto Slab", serif;
+      }
+      
+      .btn-per {
+        display: flex;
+        justify-content: space-evenly;
+        font-family: "Roboto Slab", serif;
+       }
+      
+        
+        .container{
+        display: flex;
+        justify-content: center;
+        font-family: "Roboto Slab", serif;
+        }
+        
+      
+      .showMore{
+        padding: 5px;
+        font-size: 20px;
+        color: rgb(29, 16, 146);
+        border: none;
+        background: none;
+        cursor: pointer;
+        font-family: "Roboto Slab", serif;
+      }
+      
